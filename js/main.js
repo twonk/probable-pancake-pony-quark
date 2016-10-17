@@ -49,9 +49,9 @@ jQuery(document).ready(function($) {
 
     moment.lang(lang);
 
-	setTimeout(function(){
-		window.location.reload(1);
-	}, 1000*60*60);
+	//setTimeout(function(){
+	//	window.location.reload(1);
+	//}, 1000*60*60);
 
 	//connect do Xbee monitor
 	// var socket = io.connect('http://rpi-alarm.local:8082');
